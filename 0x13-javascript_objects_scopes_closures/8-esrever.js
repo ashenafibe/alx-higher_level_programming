@@ -1,5 +1,5 @@
 #!/usr/bin/node
 
 exports.esrever = function (list) {
-  return list.sort(() => 1).reverse();
+  return list.sort(() => 1);
 };
